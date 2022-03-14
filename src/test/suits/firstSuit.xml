@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="firstSuit">
+    <parameter name ="browser" value ="Chrome"/>
+    <parameter name ="url" value ="http://www.google.com"/>
+    <parameter name ="reportName" value ="SeleniumReport"/>
+    <parameter name ="env" value ="Dynamic"/>
+    <test name ="SeleniumTest1">
+        <classes>
+<!--            <class name ="com.selenium.tests.FirstTest"/>-->
+            <class name="com.selenium.tests.SeleniumTest"/>
+<!--            <class name="qa.BaseClass"/>-->
+        </classes>
+    </test>
+</suite>
