@@ -47,9 +47,9 @@
                     <version>2.19.1</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>src.test.suits.firstSuit.xml</suiteXmlFile>
+                            <suiteXmlFile>src/test/suits/firstSuit.xml</suiteXmlFile>
                         </suiteXmlFiles>
-                        <!-- put your configurations here -->
+
                     </configuration>
 
                 </plugin>

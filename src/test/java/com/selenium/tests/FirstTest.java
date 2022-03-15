@@ -11,6 +11,7 @@ public class FirstTest extends BaseTest {
     @Parameters("url")
     public void firstTest(String url)
     {
+        child = report.createTest(Thread.currentThread().getStackTrace()[1].getMethodName());
         System.out.println("SUM");
         int a = 10;
         int b = 20;
@@ -22,6 +23,7 @@ public class FirstTest extends BaseTest {
     @Parameters("browser")
     public void secondTest(String browser)
     {
+        child = report.createTest(Thread.currentThread().getStackTrace()[1].getMethodName());
         System.out.println("SUBTRACT");
         int a = 10;
         int b = 20;
@@ -32,6 +34,7 @@ public class FirstTest extends BaseTest {
     @Test
     public void thirdTest()
     {
+        child = report.createTest(Thread.currentThread().getStackTrace()[1].getMethodName());
         System.out.println("MULTIPLY");
         int a = 10;
         int b = 20;
@@ -41,6 +44,7 @@ public class FirstTest extends BaseTest {
     @Test
     public void fourthTest()
     {
+        child = report.createTest(Thread.currentThread().getStackTrace()[1].getMethodName());
         System.out.println("DIVIDE");
         int a = 10;
         int b = 20;
@@ -50,6 +54,7 @@ public class FirstTest extends BaseTest {
     @Test
     public void fifthTest()
     {
+        child = report.createTest(Thread.currentThread().getStackTrace()[1].getMethodName());
         System.out.println("REMAINDER");
         int a = 10;
         int b = 3;
